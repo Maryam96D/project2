@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // استفاده از Credential برای دسترسی SSH به مخزن
-                git credentialsId: 'a7b55f56-fe09-4503-837e-a11eea1d2fe3', url: 'git@github.com:Maryam96D/project2.git'
+                git credentialsId: '10457a34-3d38-4354-b88f-2e511d8212a4', url: 'git@github.com:Maryam96D/project2.git'
             }
         }
         stage('Build') {
